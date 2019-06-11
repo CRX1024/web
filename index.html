@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web work</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .mtop {
+            width: 100%;
+            height: 20px;
+            background-color: rgb(244, 244, 244);
+        }
+
+        .mtop p {
+            display: inline;
+        }
+
+        #left {
+            display: inline-block;
+            text-align: center;
+            line-height: 20px;
+            margin-left: 0px;
+        }
+
+        #right {
+            display: inline-block;
+            position: absolute;
+            right: 0px;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        .yh {
+            position: relative;
+            height: 20px;
+            width: 1000px;
+            margin: 0px auto;
+        }
+
+        .yhh {
+            border-bottom: 1px solid rgb(248, 56, 56);
+        }
+
+        .top {
+
+            width: 1000px;
+            height: 140px;
+            margin: 0px auto;
+        }
+
+        .topUp {
+            width: 1000px;
+            height: 100px;
+            position: relative;
+        }
+
+        .topUp div {
+            display: inline-block;
+            width: 160px;
+            height: 40px;
+            bottom: 30px;
+            line-height: 40px;
+            position: relative;
+            text-align: center;
+            background-color: rgb(245, 245, 245);
+        }
+
+        .topUp img {
+            display: inline-block;
+        }
+
+        .topUp form {
+            display: inline-block;
+            margin: 0px 100px;
+            width: 420px;
+            height: 40px;
+            text-align: center;
+            position: relative;
+            bottom: 30px;
+        }
+
+        .ykk {
+            width: 320px;
+            height: 35px;
+            margin-right: 0px;
+            border-width: 1px;
+            border-color: rgb(248, 56, 56);
+        }
+
+        .yss {
+            height: 37px;
+            width: 80px;
+            margin-left: -5px;
+            border-width: 1px;
+            background-color: rgb(248, 56, 56);
+            border-color: rgb(248, 56, 56);
+
+        }
+
+        .topUp p {
+            display: inline-block;
+        }
+
+        .TopDown {
+            width: 1000px;
+            height: 40px;
+        }
+
+        .TopDown li {
+            width: 90px;
+            height: 35px;
+            text-align: center;
+            line-height: 40px;
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .TopDown li:hover {
+            background-color: rgb(253, 3, 4);
+            border-radius: 5px;
+        }
+
+        .body {
+            width: 1000px;
+            height: 650px;
+            margin: 0px auto;
+        }
+
+        .bodyUp {
+            width: 1000px;
+            height: 80px;
+            line-height: 80px;
+        }
+
+        .bodyDown {
+            width: 1000px;
+            height: 570px;
+        }
+
+        .left {
+            width: 200px;
+            height: 570px;
+            float: left;
+        }
+
+        .div_0 {
+            width: 200px;
+            height: 50px;
+        }
+
+        .div_0 p {
+            display: inline-block;
+            margin-left: 15px;
+
+        }
+
+        .div_1 {
+            width: 200px;
+            height: 520px;
+        }
+
+        .left a {
+            display: block;
+            margin-left: 40px;
+        }
+
+        .right {
+            width: 800px;
+            height: 570px;
+            float: left;
+
+        }
+
+        .right div {
+            width: 180px;
+            height: 260px;
+            float: left;
+            border: 1px solid rgb(219, 219, 219);
+            text-align: center;
+            margin: 5px;
+            margin-left: 10px;
+        }
+
+        .right img {
+            margin-top: 30px;
+        }
+
+        .right p {
+            margin-top: 20px;
+            color: rgb(163, 163, 163);
+        }
+
+        #cai{
+            margin-top: 10px;
+            color: black;
+        }
+
+        #rui{
+            margin-top: 2px;
+        }
+        .mbottom{
+            background-color: rgb(46,46,46);
+            width: 100%;
+            height: 250px;
+        }
+        .list{
+            text-align:center;
+            width: 1000px;
+            height: 150px;
+            margin: 0px auto;
+            border-bottom: 1px solid rgb(69,69,69);
+        }
+        .list ul{
+            width: 190px;
+            margin: 0px;
+            height: 150px;
+            display: inline-block;
+        }
+        .mbottom li{
+            list-style-type: none;
+            height: 30px;
+            line-height:30px;
+            margin-left: 50px;
+            margin-top: 5px;
+            text-align:left;
+            color: rgb(163, 163, 163);
+        }
+        .mbottom a{
+            color: rgb(200, 200, 200);
+        }
+        .bcontent a{
+            color: black;
+        }
+        .bcontent{
+            margin-top: 10px;
+            text-align:center;
+        }
+        .bend{
+            margin-top: 10px;
+            text-align: center;
+            color: rgb(139, 138, 138);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="mtop">
+        <div class="yh">
+            <div id="left">
+                <a href="#">我的收藏</a>
+                <a href="#">E族之家手机版</a>
+                <img src="./图/QQ.png">
+                <p>328203328</p>
+            </div>
+            <div id="right">
+                <a href="#">扫码登录</a>
+                <p>欢迎来到E族之家</p>
+                <a href="#">请登录</a>|
+                <a href="#">注册</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="yhh">
+        <div class="top">
+            <div class="topUp">
+                <img src="./图/LOGO.png">
+                <form>
+                    <input type="text" name="text" value="请输入关键字" class="ykk">
+                    <input type="submit" name="submit" value="搜索" class="yss">
+                </form>
+                <div>
+                    <img src="./图/SHOP.png">
+                    <p>购物车(0)件</p>
+                </div>
+            </div>
+            <div class="TopDown">
+                <ul>
+                    <li>首页</li>
+                    <li>E族生活</li>
+                    <li>E族服务</li>
+                    <li>E族爱心</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="bodyUp">
+            <a href="#">当前位置</a>:<a href="#">E族爱心</a>><a href="#">食品</a>
+        </div>
+        <div class="bodyDown">
+            <div class="left">
+                <div class="div_0">
+                    <img src="./图/目录.png">
+                    <p>全部分类</p>
+                </div>
+                <div class="div_1">
+                    <a href="#">>食品</a>
+                    <a href="#" style="margin-top:20px;">>生活用品</a>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <img src="./图/辣椒.png">
+                    <p>精品辣椒 100g</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/百香果.png">
+                    <p>特级百香果 3斤</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/酒.png" style="margin: 6px;">
+                    <p>万威啤酒 550ml</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/松子.png">
+                    <p id="rui">松子 500g</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/辣椒.png">
+                    <p>精品辣椒 100g</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/百香果.png">
+                    <p>特级百香果 3斤</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/酒.png" style="margin: 6px;">
+                    <p>万威啤酒 550ml</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+                <div>
+                    <img src="./图/松子.png">
+                    <p id="rui">松子 500g</p>
+                    <p id=cai>￥90.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mbottom">
+        <div class="list">
+            <ul>
+                <li><a href="#">新手上路</a></li>
+                <li><a href="#">售后流程</a></li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">订购方式</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">配送方式</a></li>
+                <li><a href="#">货到付款区域</a></li>
+                <li><a href="#">配送支付查询</a></li>
+                <li><a href="#">支付方式说明</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">购物指南</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">订购流程</a></li>
+                <li><a href="#">注册新会员</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">退换货原</a></li>
+                <li><a href="#">售后服务保证</a></li>
+                <li><a href="#">换货流程</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">网络故障报告</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">投诉与建议</a></li>
+            </ul>
+        </div>
+        <div class="bcontent">
+            <a href="#">E族生活</a>|
+            <a href="#">居家维护保养</a>|
+            <a href="#">住宿优惠信息</a>|
+            <a href="#">出行接送</a>|
+            <a href="#">E族活动</a>|
+            <a href="#">E族爱心</a>|
+            <a href="#">积分商城</a>
+        </div>
+        <div class="bend">
+            <p>@2017-2018 E族之家版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
